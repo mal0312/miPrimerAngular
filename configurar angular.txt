@@ -1,0 +1,822 @@
+Microsoft Windows [Versión 10.0.17134.829]
+(c) 2018 Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\javier>node 'v
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module 'C:\Users\javier\'v'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:829:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+
+C:\Users\javier>node -v
+v10.16.0
+
+C:\Users\javier>npm -v
+6.9.0
+
+C:\Users\javier>npm install -g typescript
+C:\Users\javier\AppData\Roaming\npm\tsserver -> C:\Users\javier\AppData\Roaming\npm\node_modules\typescript\bin\tsserver
+C:\Users\javier\AppData\Roaming\npm\tsc -> C:\Users\javier\AppData\Roaming\npm\node_modules\typescript\bin\tsc
++ typescript@3.5.2
+added 1 package from 1 contributor in 1.759s
+
+C:\Users\javier>tsc --version
+Version 3.5.2
+
+C:\Users\javier>tsc -v
+Version 3.5.2
+
+C:\Users\javier>cd desktop
+
+C:\Users\javier\Desktop>cd typescript
+
+C:\Users\javier\Desktop\typescript>tsc type1.ts
+
+C:\Users\javier\Desktop\typescript>tsc type1.ts
+
+C:\Users\javier\Desktop\typescript>tsc type1.ts
+
+C:\Users\javier\Desktop\typescript>tsc type1.ts
+
+C:\Users\javier\Desktop\typescript>tsc type1.ts
+
+C:\Users\javier\Desktop\typescript>angular -v
+"angular" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users\javier\Desktop\typescript>ng -v
+"ng" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users\javier\Desktop\typescript>npm install -g @angular/cli
+C:\Users\javier\AppData\Roaming\npm\ng -> C:\Users\javier\AppData\Roaming\npm\node_modules\@angular\cli\bin\ng
+
+> @angular/cli@8.0.3 postinstall C:\Users\javier\AppData\Roaming\npm\node_modules\@angular\cli
+> node ./bin/postinstall/script.js
+
+? Would you like to share anonymous usage data with the Angular Team at Google under
+Google’s Privacy Policy at https://policies.google.com/privacy? For more details and
+how to change this setting, see http://angular.io/analytics. No
++ @angular/cli@8.0.3
+added 228 packages from 175 contributors in 80.002s
+
+C:\Users\javier\Desktop\typescript>angular -v
+"angular" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users\javier\Desktop\typescript>ng -v
+Available Commands:
+  add Adds support for an external library to your project.
+  analytics Configures the gathering of Angular CLI usage metrics. See https://v8.angular.io/cli/usage-analytics-gathering.
+  build (b) Compiles an Angular app into an output directory named dist/ at the given output path. Must be executed from within a workspace directory.
+  config Retrieves or sets Angular configuration values in the angular.json file for the workspace.
+  doc (d) Opens the official Angular documentation (angular.io) in a browser, and searches for a given keyword.
+  e2e (e) Builds and serves an Angular app, then runs end-to-end tests using Protractor.
+  generate (g) Generates and/or modifies files based on a schematic.
+  help Lists available commands and their short descriptions.
+  lint (l) Runs linting tools on Angular app code in a given project folder.
+  new (n) Creates a new workspace and an initial Angular app.
+  run Runs an Architect target with an optional custom builder configuration defined in your project.
+  serve (s) Builds and serves your app, rebuilding on file changes.
+  test (t) Runs unit tests in a project.
+  update Updates your application and its dependencies. See https://update.angular.io/
+  version (v) Outputs Angular CLI version.
+  xi18n Extracts i18n messages from source code.
+
+For more detailed help run "ng [command name] --help"
+
+C:\Users\javier\Desktop\typescript>cd..
+
+C:\Users\javier\Desktop>ng new mi_primer_angular
+? Would you like to add Angular routing? Yes
+? Which stylesheet format would you like to use? CSS
+Project name "mi_primer_angular" is not valid. New project names must start with a letter, and must contain only alphanumeric characters or dashes. When adding a dash the segment after the dash must also start with a letter.
+mi_primer_angular
+^
+
+C:\Users\javier\Desktop>ng new miPrimerAngular
+? Would you like to add Angular routing? Yes
+? Which stylesheet format would you like to use? CSS
+CREATE miPrimerAngular/angular.json (3497 bytes)
+CREATE miPrimerAngular/package.json (1290 bytes)
+CREATE miPrimerAngular/README.md (1032 bytes)
+CREATE miPrimerAngular/tsconfig.json (470 bytes)
+CREATE miPrimerAngular/tslint.json (1985 bytes)
+CREATE miPrimerAngular/.editorconfig (246 bytes)
+CREATE miPrimerAngular/.gitignore (629 bytes)
+CREATE miPrimerAngular/browserslist (429 bytes)
+CREATE miPrimerAngular/karma.conf.js (1027 bytes)
+CREATE miPrimerAngular/tsconfig.app.json (210 bytes)
+CREATE miPrimerAngular/tsconfig.spec.json (270 bytes)
+CREATE miPrimerAngular/src/favicon.ico (5430 bytes)
+CREATE miPrimerAngular/src/index.html (302 bytes)
+CREATE miPrimerAngular/src/main.ts (372 bytes)
+CREATE miPrimerAngular/src/polyfills.ts (2838 bytes)
+CREATE miPrimerAngular/src/styles.css (80 bytes)
+CREATE miPrimerAngular/src/test.ts (642 bytes)
+CREATE miPrimerAngular/src/assets/.gitkeep (0 bytes)
+CREATE miPrimerAngular/src/environments/environment.prod.ts (51 bytes)
+CREATE miPrimerAngular/src/environments/environment.ts (662 bytes)
+CREATE miPrimerAngular/src/app/app-routing.module.ts (245 bytes)
+CREATE miPrimerAngular/src/app/app.module.ts (393 bytes)
+CREATE miPrimerAngular/src/app/app.component.html (1152 bytes)
+CREATE miPrimerAngular/src/app/app.component.spec.ts (1122 bytes)
+CREATE miPrimerAngular/src/app/app.component.ts (219 bytes)
+CREATE miPrimerAngular/src/app/app.component.css (0 bytes)
+CREATE miPrimerAngular/e2e/protractor.conf.js (810 bytes)
+CREATE miPrimerAngular/e2e/tsconfig.json (214 bytes)
+CREATE miPrimerAngular/e2e/src/app.e2e-spec.ts (644 bytes)
+CREATE miPrimerAngular/e2e/src/app.po.ts (251 bytes)
+
+> core-js@2.6.9 postinstall C:\Users\javier\Desktop\miPrimerAngular\node_modules\babel-runtime\node_modules\core-js
+> node scripts/postinstall || echo "ignore"
+
+
+> core-js@2.6.9 postinstall C:\Users\javier\Desktop\miPrimerAngular\node_modules\karma\node_modules\core-js
+> node scripts/postinstall || echo "ignore"
+
+
+> @angular/cli@8.0.3 postinstall C:\Users\javier\Desktop\miPrimerAngular\node_modules\@angular\cli
+> node ./bin/postinstall/script.js
+
+npm WARN rollback Rolling back node-pre-gyp@0.12.0 failed (this is probably harmless): EPERM: operation not permitted, scandir 'C:\Users\javier\Desktop\miPrimerAngular\node_modules\fsevents\node_modules'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+added 1012 packages from 1041 contributors and audited 19005 packages in 87.363s
+found 0 vulnerabilities
+
+warning: LF will be replaced by CRLF in .editorconfig.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in angular.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in browserslist.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in e2e/protractor.conf.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in e2e/src/app.e2e-spec.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in e2e/src/app.po.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in e2e/tsconfig.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in karma.conf.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in package-lock.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/app/app-routing.module.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/app/app.component.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/app/app.component.spec.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/app/app.component.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/app/app.module.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/environments/environment.prod.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/environments/environment.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/index.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/main.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/polyfills.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/styles.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/test.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in tsconfig.app.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in tsconfig.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in tsconfig.spec.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in tslint.json.
+The file will have its original line endings in your working directory.
+    Successfully initialized git.
+
+C:\Users\javier\Desktop>cd miPrimerAngular
+
+C:\Users\javier\Desktop\miPrimerAngular>npm install --save angular-bootstrap-md
+npm WARN angular-bootstrap-md@7.5.4 requires a peer of @angular/common@^7.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN angular-bootstrap-md@7.5.4 requires a peer of @angular/core@^7.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ angular-bootstrap-md@7.5.4
+added 1 package and audited 19007 packages in 21.695s
+found 0 vulnerabilities
+
+
+C:\Users\javier\Desktop\miPrimerAngular>npm install --save font-awesome
+npm WARN angular-bootstrap-md@7.5.4 requires a peer of @angular/common@^7.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN angular-bootstrap-md@7.5.4 requires a peer of @angular/core@^7.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ font-awesome@4.7.0
+added 1 package from 5 contributors and audited 19008 packages in 18.381s
+found 0 vulnerabilities
+
+
+C:\Users\javier\Desktop\miPrimerAngular>ng serve
+
+Date: 2019-06-17T16:44:06.484Z
+Hash: 56616571048097f6e364
+Time: 14311ms
+chunk {main} main.js, main.js.map (main) 11.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 248 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.08 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 16.3 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.94 MB [initial] [rendered]
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T16:50:09.233Z - Hash: ed9867958d49e11b5c41 - Time: 544ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 10.3 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T16:50:52.941Z - Hash: 7863fe0ec0eb1ec4f6e1 - Time: 4204ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 10.3 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T16:51:05.548Z - Hash: 8adf3e52655980cd49e6 - Time: 346ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 10.3 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T16:51:11.551Z - Hash: 7863fe0ec0eb1ec4f6e1 - Time: 282ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 10.3 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+^C¿Desea terminar el trabajo por lotes (S/N)? s
+
+C:\Users\javier\Desktop\miPrimerAngular>ng g c nav
+CREATE src/app/nav/nav.component.html (22 bytes)
+CREATE src/app/nav/nav.component.spec.ts (607 bytes)
+CREATE src/app/nav/nav.component.ts (257 bytes)
+CREATE src/app/nav/nav.component.css (0 bytes)
+UPDATE src/app/app.module.ts (463 bytes)
+
+C:\Users\javier\Desktop\miPrimerAngular>ng g c footer
+CREATE src/app/footer/footer.component.html (25 bytes)
+CREATE src/app/footer/footer.component.spec.ts (628 bytes)
+CREATE src/app/footer/footer.component.ts (269 bytes)
+CREATE src/app/footer/footer.component.css (0 bytes)
+UPDATE src/app/app.module.ts (545 bytes)
+
+C:\Users\javier\Desktop\miPrimerAngular>ng serve
+
+Date: 2019-06-17T17:03:20.060Z
+Hash: 9325a830b8312222082d
+Time: 14446ms
+chunk {main} main.js, main.js.map (main) 15.3 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 248 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.08 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 16.3 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.94 MB [initial] [rendered]
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T17:13:39.526Z - Hash: cac3a31403224b15b54d - Time: 526ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 15.4 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T17:13:56.895Z - Hash: 5160b2348a61f637c1e1 - Time: 4144ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 15.4 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T17:15:30.626Z - Hash: 791eeae50511192c8ba4 - Time: 449ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 15.6 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T17:15:35.349Z - Hash: 791eeae50511192c8ba4 - Time: 2971ms
+5 unchanged chunks
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T17:16:10.526Z - Hash: 38d54ea1c37345166dc5 - Time: 298ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 15.6 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T17:18:39.045Z - Hash: 38d54ea1c37345166dc5 - Time: 2254ms
+5 unchanged chunks
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+i ?wdm?: wait until bundle finished: /
+
+Date: 2019-06-17T17:18:39.568Z - Hash: 38d54ea1c37345166dc5 - Time: 259ms
+5 unchanged chunks
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T17:19:51.901Z - Hash: a22c2c5558ccfe364613 - Time: 2338ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 15.6 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T17:20:11.814Z - Hash: 381dc0b7a36d2d7ce502 - Time: 256ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 15.6 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T17:20:28.343Z - Hash: 60fd0c04d88fb5e2bf8c - Time: 2962ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 15.6 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T17:20:36.776Z - Hash: 909a7929a11489ba7de6 - Time: 293ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 15.6 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T17:20:50.552Z - Hash: a22c2c5558ccfe364613 - Time: 1789ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 15.6 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+^C¿Desea terminar el trabajo por lotes (S/N)? s
+
+C:\Users\javier\Desktop\miPrimerAngular>npm install bootstrap
+npm WARN angular-bootstrap-md@7.5.4 requires a peer of @angular/common@^7.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN angular-bootstrap-md@7.5.4 requires a peer of @angular/core@^7.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN bootstrap@4.3.1 requires a peer of jquery@1.9.1 - 3 but none is installed. You must install peer dependencies yourself.
+npm WARN bootstrap@4.3.1 requires a peer of popper.js@^1.14.7 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ bootstrap@4.3.1
+added 1 package from 2 contributors and audited 19009 packages in 19.946s
+found 0 vulnerabilities
+
+
+C:\Users\javier\Desktop\miPrimerAngular>ng serve
+
+Date: 2019-06-17T17:38:12.559Z
+Hash: ea861093484b39cde49c
+Time: 20068ms
+chunk {main} main.js, main.js.map (main) 15.6 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 248 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.08 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 1.13 MB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.94 MB [initial] [rendered]
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T17:42:17.689Z - Hash: bfa99f5c2735239d0d4b - Time: 465ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 17.4 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T17:43:43.616Z - Hash: d8a6a80a752a8191a339 - Time: 4031ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 17.4 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+^C¿Desea terminar el trabajo por lotes (S/N)? s
+
+C:\Users\javier\Desktop\miPrimerAngular>ng serve
+
+Date: 2019-06-17T17:51:52.920Z
+Hash: d8a6a80a752a8191a339
+Time: 13859ms
+chunk {main} main.js, main.js.map (main) 17.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 248 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.08 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 1.13 MB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.94 MB [initial] [rendered]
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T17:56:53.662Z - Hash: fac8af52cd405d70aca3 - Time: 506ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 17.4 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T18:00:24.905Z - Hash: 6279f3ba88876a510d70 - Time: 4033ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 16.4 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T18:01:26.187Z - Hash: 00ee25cf196c8363c35a - Time: 383ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 16.5 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T18:02:07.701Z - Hash: 00ee25cf196c8363c35a - Time: 2742ms
+5 unchanged chunks
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T18:12:19.758Z - Hash: 4488124e12ae416b9977 - Time: 315ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 16.6 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+^C¿Desea terminar el trabajo por lotes (S/N)? s
+
+C:\Users\javier\Desktop\miPrimerAngular>ng g c nosotros
+CREATE src/app/nosotros/nosotros.component.html (27 bytes)
+CREATE src/app/nosotros/nosotros.component.spec.ts (642 bytes)
+CREATE src/app/nosotros/nosotros.component.ts (277 bytes)
+CREATE src/app/nosotros/nosotros.component.css (0 bytes)
+UPDATE src/app/app.module.ts (635 bytes)
+
+C:\Users\javier\Desktop\miPrimerAngular>ng g c home
+CREATE src/app/home/home.component.html (23 bytes)
+CREATE src/app/home/home.component.spec.ts (614 bytes)
+CREATE src/app/home/home.component.ts (261 bytes)
+CREATE src/app/home/home.component.css (0 bytes)
+UPDATE src/app/app.module.ts (709 bytes)
+
+C:\Users\javier\Desktop\miPrimerAngular>ng g c contacto
+CREATE src/app/contacto/contacto.component.html (27 bytes)
+CREATE src/app/contacto/contacto.component.spec.ts (642 bytes)
+CREATE src/app/contacto/contacto.component.ts (277 bytes)
+CREATE src/app/contacto/contacto.component.css (0 bytes)
+UPDATE src/app/app.module.ts (799 bytes)
+
+C:\Users\javier\Desktop\miPrimerAngular>ng serve
+
+Date: 2019-06-17T19:39:00.552Z
+Hash: 98c9a3a572fcb50db7e7
+Time: 12187ms
+chunk {main} main.js, main.js.map (main) 1.91 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 119 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.08 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 1.13 MB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 327 kB [initial] [rendered]
+
+ERROR in src/app/app.routing.ts(3,16): error TS2322: Type 'string' is not assignable to type 'Type<any>'.
+src/app/app.routing.ts(4,20): error TS2322: Type 'string' is not assignable to type 'Type<any>'.
+src/app/app.routing.ts(5,20): error TS2322: Type 'string' is not assignable to type 'Type<any>'.
+
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+i ?wdm?: Failed to compile.
+^C¿Desea terminar el trabajo por lotes (S/N)? s
+
+C:\Users\javier\Desktop\miPrimerAngular>ng serve
+
+Date: 2019-06-17T19:44:37.541Z
+Hash: 98c9a3a572fcb50db7e7
+Time: 8912ms
+chunk {main} main.js, main.js.map (main) 1.91 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 119 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.08 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 1.13 MB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 327 kB [initial] [rendered]
+
+ERROR in src/app/app.routing.ts(3,16): error TS2322: Type 'string' is not assignable to type 'Type<any>'.
+src/app/app.routing.ts(4,20): error TS2322: Type 'string' is not assignable to type 'Type<any>'.
+src/app/app.routing.ts(5,20): error TS2322: Type 'string' is not assignable to type 'Type<any>'.
+
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+i ?wdm?: Failed to compile.
+^C¿Desea terminar el trabajo por lotes (S/N)? s
+
+C:\Users\javier\Desktop\miPrimerAngular>ng serve
+
+Date: 2019-06-17T19:54:25.451Z
+Hash: 1ba32dd20d4f194e6343
+Time: 14096ms
+chunk {main} main.js, main.js.map (main) 26.1 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 248 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.08 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 1.13 MB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.94 MB [initial] [rendered]
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T19:56:19.533Z - Hash: 1ba32dd20d4f194e6343 - Time: 342ms
+5 unchanged chunks
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T20:02:07.336Z - Hash: eb5ab78cf8289a4fbab9 - Time: 290ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.1 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T20:02:12.700Z - Hash: 89d38c8411de51a82b37 - Time: 3164ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.2 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T20:09:08.511Z - Hash: b21bdfd8c148bca7df04 - Time: 199ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.3 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T20:10:27.604Z - Hash: df3185fbcd64e7f7b001 - Time: 1843ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T20:14:01.423Z - Hash: f95ff3b26c5d84ce932d - Time: 254ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T20:14:52.344Z - Hash: 8b9d99ae60a48d04e985 - Time: 1845ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T20:17:41.693Z - Hash: ea1a6b121d9f7c44031e - Time: 229ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.7 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T20:22:06.572Z - Hash: 51597a0d3644836f90dc - Time: 1585ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 26.8 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T20:36:52.034Z - Hash: 733b367bf81672512803 - Time: 599ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 27 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T20:38:25.447Z - Hash: 76270a37ef09fa5d7b8a - Time: 2511ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 27.1 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T20:41:03.644Z - Hash: de8aec12383c1b2cf4ec - Time: 374ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 27.1 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T20:41:47.315Z - Hash: b24d95c520d83f9c9ff5 - Time: 1766ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 27.1 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T20:43:17.346Z - Hash: 5c42d364012d93658f94 - Time: 206ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 27.2 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T20:47:44.478Z - Hash: be47a7226124d5ed6b0b - Time: 1520ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 27.4 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T20:48:47.351Z - Hash: 30b1a3fc2e6b23086536 - Time: 250ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 27.4 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T20:50:29.989Z - Hash: 4f64c076796f5c79c718 - Time: 262ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 27.5 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T20:51:42.030Z - Hash: 413de03eb81848962b32 - Time: 1775ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 27.5 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T20:52:35.231Z - Hash: f8c744fed8f708b74fd8 - Time: 273ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 27.5 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T20:54:24.633Z - Hash: d2a54707f6462aca6c65 - Time: 1603ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 27.6 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T20:58:41.832Z - Hash: da8d14f5ea57e06b2f64 - Time: 229ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 27.8 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T20:59:43.366Z - Hash: da8d14f5ea57e06b2f64 - Time: 1400ms
+5 unchanged chunks
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T21:00:43.106Z - Hash: ced70733f3d6dc510c3b - Time: 207ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 27.8 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T21:00:49.826Z - Hash: ced70733f3d6dc510c3b - Time: 1470ms
+5 unchanged chunks
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T21:02:18.568Z - Hash: 89290d45d843864b1ecb - Time: 252ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 27.9 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T21:04:21.652Z - Hash: a085526d028035d9be44 - Time: 1891ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 27.9 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T21:05:47.383Z - Hash: 509227a9586124c3a1bb - Time: 190ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 27.9 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T21:08:11.498Z - Hash: b5c8d701703c01b93b2b - Time: 1068ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 27.9 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T21:09:07.381Z - Hash: b5c8d701703c01b93b2b - Time: 145ms
+5 unchanged chunks
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T21:09:10.570Z - Hash: c5e5b7aa41c780cfeb0a - Time: 260ms
+5 unchanged chunks
+
+ERROR in src/app/app.component.ts(18,5): error TS1005: ',' expected.
+
+i ?wdm?: Failed to compile.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T21:09:30.496Z - Hash: c5e5b7aa41c780cfeb0a - Time: 166ms
+5 unchanged chunks
+
+ERROR in src/app/app.component.ts(18,5): error TS1005: ',' expected.
+
+i ?wdm?: Failed to compile.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T21:09:36.473Z - Hash: b5c8d701703c01b93b2b - Time: 1171ms
+5 unchanged chunks
+i ?wdm?: Compiled successfully.
+^C¿Desea terminar el trabajo por lotes (S/N)? s
+
+C:\Users\javier\Desktop\miPrimerAngular>ng serve
+
+Date: 2019-06-17T21:10:24.902Z
+Hash: b5c8d701703c01b93b2b
+Time: 14608ms
+chunk {main} main.js, main.js.map (main) 27.9 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 248 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.08 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 1.13 MB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.94 MB [initial] [rendered]
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T21:34:07.210Z - Hash: 6f660d3ba7ac10af9a13 - Time: 835ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 28.1 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T21:37:58.216Z - Hash: 083272090ff0d45928f3 - Time: 3910ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 28.1 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T21:38:03.627Z - Hash: 083272090ff0d45928f3 - Time: 334ms
+5 unchanged chunks
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T21:40:33.486Z - Hash: 87ad4403891ea59ddd02 - Time: 298ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 28.1 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+ 95% emitting CopyPlugini ?wdm?: wait until bundle finished: /runtime.js.map
+i ?wdm?: wait until bundle finished: /main.js.map
+i ?wdm?: wait until bundle finished: /
+i ?wdm?: wait until bundle finished: /vendor.js.map
+Date: 2019-06-17T21:43:46.354Z - Hash: c29a8fa9d6a29a883860 - Time: 144084ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 28.1 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+i ?wdm?: wait until bundle finished: /runtime.js
+i ?wdm?: wait until bundle finished: /polyfills.js
+i ?wdm?: wait until bundle finished: /styles.js
+i ?wdm?: wait until bundle finished: /vendor.js
+i ?wdm?: wait until bundle finished: /main.js
+
+Date: 2019-06-17T21:43:46.916Z - Hash: c29a8fa9d6a29a883860 - Time: 268ms
+5 unchanged chunks
+i ?wdm?: Compiled successfully.
+^C¿Desea terminar el trabajo por lotes (S/N)? s
+
+C:\Users\javier\Desktop\miPrimerAngular>ng serve
+
+Date: 2019-06-17T21:44:17.966Z
+Hash: c29a8fa9d6a29a883860
+Time: 12866ms
+chunk {main} main.js, main.js.map (main) 28.1 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 248 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.08 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 1.13 MB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.94 MB [initial] [rendered]
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T21:44:31.405Z - Hash: 15a3521217cfc7d0af83 - Time: 463ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 28.1 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T21:45:28.823Z - Hash: 1a0280d537d707623416 - Time: 3818ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 28.1 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T21:46:12.724Z - Hash: 62577e62689194ec4712 - Time: 468ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 28.1 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T21:46:46.574Z - Hash: 319709e610b2ef0c4dde - Time: 3105ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 28.1 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+i ?wdm?: Compiling...
+
+Date: 2019-06-17T21:48:07.809Z - Hash: 27646ad71c2f47a8179c - Time: 468ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 28.1 kB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+^C¿Desea terminar el trabajo por lotes (S/N)?
+¿Desea terminar el trabajo por lotes (S/N)? s
+
+C:\Users\javier\Desktop\miPrimerAngular>>configangular.txt
+La sintaxis del comando no es correcta.
+
+C:\Users\javier\Desktop\miPrimerAngular>
